@@ -1,0 +1,70 @@
+.page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+/* *{
+    
+} */
+/* h1 {
+    color: brown;
+} */
+
+/* * {
+    border: solid;
+} */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAF7A6;
+    
+
+}
+
+/* .header h1{
+    color: yellow;
+    background-color: crimson;
+
+} */
+.trex {
+    position:relative;
+    background-color: #E9B215 ;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin:10px;
+    margin-top: 20px;
+    border-width: medium;
+    border: black solid;
+    
+    
+}
+/* .trex :hover {
+    /background-color: #000000 ;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column; /
+    margin:10px;
+    margin-top: 20px;
+    border-width: medium;
+    border: black solid;
+} */
+.trex p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.trex:hover p{
+    opacity: 1;
+}
+.trex:hover img{
+    opacity: 0.25;
+}
+p,h2{
+    text-align: center;
+}
